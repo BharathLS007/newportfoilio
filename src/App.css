@@ -1,6 +1,89 @@
+:root{
+  --primary:white;
+  --secondary:black;
+  --hover:rgb(250, 0, 125);
+}
+
+
+
 *{
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.05); /* Transparent base */
+  backdrop-filter: none;
+  color: #FFFFFF;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  z-index: 999;
+}
+
+/* When scrolled */
+.nav.scrolled {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px); 
+}
+
+/* Navigation Menu */
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Links */
+.nav-links {
+  margin: 0 15px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #E0E0E0; /* Light font for visibility on dark background */
+  padding: 8px 0;
+  display: inline-block;
+}
+
+/* Underline effect */
+.nav-links a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: var(--hover, #00FFFF); 
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+
+
+/* Responsive 
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    margin: 10px 0;
+  }
+}
+*/
