@@ -5,6 +5,12 @@ function VantaNet() {
   const [vantaEffect, setVantaEffect] = useState(null);
 
   useEffect(() => {
+    function handleResize() {
+      if (vantaEffect && typeof vantaEffect.resize === "function") {
+        vantaEffect.resize();
+      }
+    }
+
     if (!vantaEffect && window.VANTA && window.VANTA.NET) {
       const effect = window.VANTA.NET({
         el: vantaRef.current,
@@ -20,17 +26,32 @@ function VantaNet() {
         points: 10,
         maxDistance: 20,
         spacing: 15,
-        showDots: true
+        showDots: true,
       });
       setVantaEffect(effect);
     }
 
+    window.addEventListener("resize", handleResize);
+
     return () => {
       if (vantaEffect) vantaEffect.destroy();
+      window.removeEventListener("resize", handleResize);
     };
   }, [vantaEffect]);
 
-  return <div ref={vantaRef} style={{ width: "100vw", height: "100vh" }} />;
+  return (
+    <div
+      ref={vantaRef}
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        zIndex: -1,
+      }}
+    />
+  );
 }
 
 export default VantaNet;
