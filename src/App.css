@@ -76,7 +76,22 @@
   width: 100%;
 }
 
+/*Home page*/
 
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  color: var(--primary);
+
+}
+
+
+.content-left img{
+  width:  550px;
+  height: 450px;
+  margin-left: 10rem;
+}
 
 /* Responsive 
 @media screen and (max-width: 768px) {
