@@ -22,6 +22,7 @@ function Home() {
       delaySpeed={1000}
     />
   </span>
+  
 </p>
 
         </div>
