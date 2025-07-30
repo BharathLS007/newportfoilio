@@ -4,6 +4,7 @@
   --hover:rgb(250, 0, 125);
   --transperent: rgba(255, 255, 255, 0.05);
  --transperent2:rgba(255, 255, 255, 0.2);
+ --special:aqua;
 }
 
 
@@ -86,7 +87,17 @@
 
 }
 
+.title{
+   font-size: xx-large;
+}
 
+.highlight{
+  color: var(--special);
+}
+
+.content-right{
+  margin-top: 5%;
+}
 .content-left img{
   width:  550px;
   height: 450px;
