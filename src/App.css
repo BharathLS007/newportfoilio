@@ -14,6 +14,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 .nav {
   position: fixed;
@@ -162,6 +163,30 @@
   font-size: x-large;
   gap: 7px;
 }
+
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.links li i {
+  color: white;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.links li i:hover {
+  transform: scale(1.3);
+  color: var(--special); /* optional: adds a hover color effect */
+}
+
+
 /* Responsive 
 @media screen and (max-width: 768px) {
   .menu {
