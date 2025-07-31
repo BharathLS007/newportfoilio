@@ -81,10 +81,10 @@
 
 .container{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 10%;
   color: var(--primary);
-
+  
 }
 
 .title{
@@ -96,12 +96,14 @@
 }
 
 .content-right{
-  margin-top: 5%;
+ margin: 5% 0 0 25%;
+}
+.content-left {
+  margin-right: 15%;
 }
 .content-left img{
   width:  550px;
   height: 450px;
-  margin-left: 10rem;
 }
 
 /* Responsive 
