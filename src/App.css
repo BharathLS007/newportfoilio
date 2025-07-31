@@ -133,7 +133,8 @@
 .content-left2, .content-right2 {
   flex: 1;
   min-width: 300px;
-  margin: 0 1rem;
+  margin: 5% 0 0 13%;
+  font-size: larger;
 }
 
 .content-left2 img {
