@@ -32,6 +32,12 @@ function Home() {
         </div>
 
       </div>
+       
+       
+           <div className="container2">
+                    <h1 className='intro'>LET ME <span className='highlight'>INTRODUCE </span>MYSELF</h1>
+           </div>
+
     </div>
   )
 }
