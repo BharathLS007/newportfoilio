@@ -56,7 +56,7 @@ function Home() {
             <p className='free'>
               Feel free to <span className='highlight'>connect</span>with me
             </p>
-<div className="links">
+         <div className="links">
   <ul>
     <li>
       <a href="https://github.com/BharathLS007" target="_blank" rel="noopener noreferrer">
@@ -74,9 +74,13 @@ function Home() {
       </a>
     </li>
   </ul>
-</div>
+         </div>
 
            </div>
+
+           <footer>
+            <p>Designed and Developed by Bharath L S</p>
+           </footer>
 
     </div>
   )

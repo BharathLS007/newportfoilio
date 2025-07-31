@@ -186,7 +186,16 @@
   color: var(--special); /* optional: adds a hover color effect */
 }
 
-
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3%;
+  padding: 30px;
+  font-size: larger;
+  background-color: var(--transperent);
+  color: var(--primary);
+}
 /* Responsive 
 @media screen and (max-width: 768px) {
   .menu {
