@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import work from '../assets/work.svg'
+import avatar from '../assets/avatar.svg'
 import { Typewriter } from 'react-simple-typewriter';
 function Home() {
   return (
@@ -35,7 +36,19 @@ function Home() {
        
        
            <div className="container2">
-                    <h1 className='intro'>LET ME <span className='highlight'>INTRODUCE </span>MYSELF</h1>
+                      <div>
+                        <h1 className='intro'>LET ME <span className='highlight'>INTRODUCE </span>MYSELF</h1>
+                      </div>
+
+                    <div className="content-right2">
+                      <p>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</p><br />
+                      <p>I am fluent in classics like C++, Javascript and Go.</p><br />
+                      <p>My field of Interest's are building new  Web Technologies and Products and also in areas related to Blockchain.</p><br />
+                      <p>Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks  like React.js and Next.js</p><br /> 
+                    </div>
+        <div className="content-left2">
+           <img src={avatar} alt='img' />
+        </div>
            </div>
 
     </div>
