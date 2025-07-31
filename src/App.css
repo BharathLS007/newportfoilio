@@ -143,7 +143,25 @@
   border-radius: 10px;
 }
 
+.find{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--primary);
+  margin-top: 5%;
+}
 
+.free{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--primary);
+  margin-top: 1%;
+  font-size: x-large;
+  gap: 7px;
+}
 /* Responsive 
 @media screen and (max-width: 768px) {
   .menu {

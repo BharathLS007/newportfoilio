@@ -51,6 +51,13 @@ function Home() {
         </div>
            </div>
 
+           <div className="container3">
+            <h1 className='find'>FIND ME ON</h1>
+            <p className='free'>
+              Feel free to <span className='highlight'>connect</span>with me
+            </p>
+           </div>
+
     </div>
   )
 }
