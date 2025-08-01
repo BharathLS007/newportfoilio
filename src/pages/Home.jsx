@@ -14,7 +14,7 @@ function Home() {
           <p className='title'>
   <span className='highlight'>
     <Typewriter
-      words={['Frontend Developer', 'Software Developer']}
+      words={['Frontend Developer', 'Software Developer','Game Developer']}
       loop={true}
       cursor
       cursorStyle='|'
