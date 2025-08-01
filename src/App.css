@@ -325,6 +325,116 @@ footer{
 }
 
 
+/* Contact Form */
+
+.contact-container {
+  max-width: 800px;
+  margin: 12% 0 3% 25%;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1); /* Transparent */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  flex: 1 1 100%;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.resume-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2rem;
+}
+
+.download-btn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-group {
+    flex: 1 1 100%;
+  }
+
+  button {
+    width: 100%;
+    align-self: center;
+  }
+}
+
+
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
