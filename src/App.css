@@ -331,8 +331,8 @@ footer{
   max-width: 800px;
   margin: 12% 0 3% 25%;
   padding: 2rem;
-  background: rgba(255, 255, 255, 0.1); /* Transparent */
-  backdrop-filter: blur(10px); /* Frosted glass effect */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -418,6 +418,55 @@ button:hover {
 
 .download-btn:hover {
   background-color: #218838;
+}
+
+/* 🌐 Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    margin: 15% 0 0 2%;
+    padding: 1.5rem;
+  }
+
+  .form-group {
+    flex: 1 1 100%;
+  }
+
+  .contact-container h2 {
+    font-size: 1.75rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.95rem;
+  }
+
+  button,
+  .download-btn {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    margin-top: 25%;
+    padding: 1rem;
+  }
+
+  .contact-container h2 {
+    font-size: 1.5rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  button,
+  .download-btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
 }
 
 
