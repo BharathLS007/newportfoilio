@@ -313,6 +313,7 @@ footer{
   }
 
   .nav-links a {
+
     color: white;
   }
 
@@ -360,7 +361,7 @@ footer{
   .menu {
     display: none;
     flex-direction: column;
-    background-color: #333;
+    background-color:#2E1A47;
     position: absolute;
     top: 50px;
     right: 10px;
