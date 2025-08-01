@@ -21,6 +21,18 @@ function About() {
               <img src={job} alt="img" />
             </div>
            </div>
+           <div className="container2">
+            <div>
+              <h1 className='intro'>Professional <span className='highlight'>Skillset</span></h1>
+            </div>
+            <div className="content-right2">
+              <div className="tech-icon col-md-2 col-4">
+                
+              </div>
+            </div>
+
+
+           </div>
     </div>
   )
 }
