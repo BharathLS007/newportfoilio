@@ -132,7 +132,7 @@
 .content-left2, .content-right2 {
   flex: 1;
   min-width: 300px;
-  margin: 5% 0 0 13%;
+  margin: 0 0 0 13%;
   font-size: larger;
 }
 

@@ -39,16 +39,16 @@ function Home() {
                 <div>
                   <h1 className='intro'>LET ME <span className='highlight'>INTRODUCE </span>MYSELF</h1>
                 </div>
-
+           <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
               <div className="content-right2">
                 <p>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</p><br />
                 <p>I am fluent in classics like <span className='highlight'>React js, Javascript and python.</span></p><br />
                 <p>My field of Interest's are building new<span className='highlight'>Web Technologies and Products</span> and also in areas related to <span className='highlight'>Game Developement.</span></p><br />
                 <p>Whenever possible, I also apply my passion for developing products with <span className='highlight'>React.js and Modern Javascript Library and Frameworks</span></p><br /> 
+              </div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+              <div className="content-left2">
+                 <img src={avatar} alt='img' />
               </div>
-        <div className="content-left2">
-           <img src={avatar} alt='img' />
-        </div>
            </div>
 
            <div className="container3">
