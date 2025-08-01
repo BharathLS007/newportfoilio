@@ -420,7 +420,18 @@ button:hover {
   background-color: #218838;
 }
 
-/* 🌐 Responsive Design */
+.works {
+  text-align: center; 
+  margin: 0 auto;     
+  padding: 2rem;
+}
+
+.works p {
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
   .contact-container {
     margin: 15% 0 0 2%;
