@@ -109,7 +109,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
   padding: 0 5%;
   color: var(--primary);
 }
