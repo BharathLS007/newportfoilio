@@ -1,6 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
 import job from '../assets/job.png'
+import js from '../assets/js.png'
+import atom from '../assets/atom.png'
+import python from '../assets/python.png'
+import mysql from '../assets/mysql.png'
+import django from '../assets/django.png'
+import flask from '../assets/flask.png'
 function About() {
   return (
     <div>
@@ -26,12 +32,27 @@ function About() {
               <h1 className='intro'>Professional <span className='highlight'>Skillset</span></h1>
             </div>
             <div className="content-right2">
-              <div className="tech-icon col-md-2 col-4">
-                
+              <div className="tech-icon">
+           <div className="card">
+             <img src={js} alt="skillsicon" className="card-icon" />
+           </div>
+           <div className="card">
+             <img src={atom} alt="skillsicon" className="card-icon" />
+           </div>
+            <div className="card">
+             <img src={python} alt="skillsicon" className="card-icon" />
+           </div>
+           <div className="card">
+             <img src={mysql} alt="skillsicon" className="card-icon" />
+           </div>
+           <div className="card">
+             <img src={django} alt="skillsicon" className="card-icon" />
+           </div>
+           <div className="card">
+             <img src={flask} alt="skillsicon" className="card-icon" />
+           </div>
               </div>
             </div>
-
-
            </div>
     </div>
   )

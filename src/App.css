@@ -292,20 +292,37 @@ footer{
 
 /*About section*/
 
-.tech-icons {
-    border: 1.7px solid rgba(200, 137, 230, .637) !important;
-    border-radius: 5px !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137) !important;
-    display: table !important;
-    font-size: 4.5em !important;
-    margin: 15px !important;
-    opacity: .93 !important;
-    overflow: hidden !important;
-    padding: 10px !important;
-    text-align: center !important;
-    transition: all .4s ease 0s !important;
-    vertical-align: middle !important;
+.tech-icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 7% 0 3%;
 }
+.card {
+  width: 180px;
+  height: 120px;
+  background-color: transparent;
+  border: 2px solid #800080;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #800080;
+}
+
+.card-icon {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
