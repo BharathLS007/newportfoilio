@@ -13,6 +13,7 @@ import unity from '../assets/unity.png'
 import windows from '../assets/windows.png'
 import github from '../assets/github.png'
 import git from '../assets/git.png'
+
 function About() {
   return (
     <div>
@@ -21,8 +22,8 @@ function About() {
             <div className="content-right">
               <h1>Know Who <span className='highlight'>I'M</span></h1><br />
               <p style={{ fontSize: '1.3rem' }}>Hi Everyone,<span className='highlight'> I am Bharath L S </span>from <span className='highlight'>Kanyakumari</span></p>
-              <p style={{ fontSize: '1.3rem' }}>I am recently completed my Bacholors in Computer Science and Engineering from </p>
-              <p style={{ fontSize: '1.3rem' }}>University College of Engineering,Nagercoil</p><br />
+              <p style={{ fontSize: '1.3rem' }}>I am recently completed my Bacholors in Computer Science  </p>
+              <p style={{ fontSize: '1.3rem' }}>and Engineering from University College of Engineering,Nagercoil</p><br />
               <p style={{ fontSize: '1.3rem'}}>Apart from Coding,Some Otheractivities that I love to do!</p><br />
               <p style={{ fontSize:'1.3rem',marginLeft:'20px'}}><i className="fa-solid fa-hand-point-right" ></i>Gaming</p><br />
               <p style={{ fontSize:'1.3rem',marginLeft:'20px'}}><i className="fa-solid fa-hand-point-right" ></i>Reading Books</p><br />
@@ -88,6 +89,10 @@ function About() {
               </div>
             </div>
            </div>
+
+          <footer>
+            <p>Designed and Developed by Bharath L S</p>
+           </footer>
     </div>
   )
 }
