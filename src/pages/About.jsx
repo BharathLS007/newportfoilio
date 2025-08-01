@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import job from '../assets/job.png'
 function About() {
   return (
     <div>
@@ -15,6 +16,9 @@ function About() {
               <p style={{ fontSize:'1.3rem',marginLeft:'20px'}}><i className="fa-solid fa-hand-point-right" ></i>Reading Books</p><br />
               <p style={{ fontSize:'1.3rem',marginLeft:'20px'}}><i className="fa-solid fa-hand-point-right" ></i>Travelling</p><br />
 
+            </div>
+            <div className="content-left">
+              <img src={job} alt="img" />
             </div>
            </div>
     </div>
