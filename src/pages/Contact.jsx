@@ -86,6 +86,9 @@ const handleDownload = () => {
 </button>
 
 </div>
+          <footer>
+            <p>Designed and Developed by Bharath L S</p>
+           </footer>
     </div>
   );
 }
