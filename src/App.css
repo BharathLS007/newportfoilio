@@ -431,6 +431,86 @@ button:hover {
   margin-top: 0.5rem;
 }
 
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  flex-wrap: wrap;
+} 
+
+.project {
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  max-width: 400px;
+  width: 100%;
+  padding: 1.5rem;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.project::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Optional starry background */
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-buttons a {
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  background-color: #7c3aed;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-buttons a:hover {
+  background-color: #5b21b6;
+}
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-container {

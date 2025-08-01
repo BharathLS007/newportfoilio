@@ -1,5 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
+import bot from '../assets/bot.png'
+import movie from '../assets/movie.png'
+import portfoilioold from '../assets/portfoilioold.png'
 function Projects() {
   return (
     <div>
@@ -9,8 +12,49 @@ function Projects() {
             <h1 className='intro'>My Recent <span className='highlight'>Works</span></h1>
             <p style={{ fontSize: '1.3rem' }}>Here are a few project i've worked on recently </p>
           </div>
-
         </div>
+<div className="project-container">
+  <div className="project">
+    <img src={bot} alt="projectimg" />
+    <h2>Chatbot:</h2>
+    <p>
+      medical diagnostics chatbot based on symptoms  
+      built with Flask, json,html,css and javascript. Features include predecting the disease based on the symptoms. Given by the user
+    </p>
+    <div className="project-buttons">
+      <a href="https://github.com/BharathLS007/bot">GitHub</a>
+      <a href="#">Demo</a>
+    </div>
+  </div>
+    <div className="project"><br /><br /><br /><br /><br />
+    <img src={movie} alt="projectimg" /><br /><br /><br /><br /><br />
+    <h2>Movie website:</h2>
+    <p>
+      Movie Website   
+      built with Reactjs,html,css and javascript. 
+    </p><br /><br /><br /><br />
+    <div className="project-buttons">
+      <a href="https://github.com/BharathLS007/movies">GitHub</a>
+      <a href="#">Demo</a>
+    </div>
+    
+  </div>
+    <div className="project"><br /><br /><br /><br /><br />
+    <img src={portfoilioold} alt="projectimg" /><br /><br /><br /><br /><br />
+    <h2>Portfilio:</h2>
+    <p>
+      Portfilio Website 
+      built with html,css and javascript. 
+    </p><br /><br /><br /><br /><br />
+    <div className="project-buttons">
+      <a href="https://github.com/BharathLS007/Portfolio">GitHub</a>
+      <a href="https://bharathls007.github.io/Portfolio/">Demo</a>
+    </div>
+  </div>
+</div>
+          <footer>
+            <p>Designed and Developed by Bharath L S</p>
+           </footer>
     </div>
   )
 }
