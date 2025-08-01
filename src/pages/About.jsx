@@ -7,6 +7,12 @@ import python from '../assets/python.png'
 import mysql from '../assets/mysql.png'
 import django from '../assets/django.png'
 import flask from '../assets/flask.png'
+import ubantu from '../assets/ubantu.png'
+import vs from '../assets/vs.png'
+import unity from '../assets/unity.png'
+import windows from '../assets/windows.png'
+import github from '../assets/github.png'
+import git from '../assets/git.png'
 function About() {
   return (
     <div>
@@ -50,6 +56,34 @@ function About() {
            </div>
            <div className="card">
              <img src={flask} alt="skillsicon" className="card-icon" />
+           </div>
+              </div>
+            </div>
+           </div>
+
+        <div className="container2">
+            <div>
+              <h1 className='intro'> <span className='highlight'>Tool</span> I use</h1>
+            </div>
+            <div className="content-right2">
+              <div className="tech-icon">
+           <div className="card">
+             <img src={ubantu} alt="skillsicon" className="card-icon" />
+           </div>
+           <div className="card">
+             <img src={unity} alt="skillsicon" className="card-icon" />
+           </div>
+            <div className="card">
+             <img src={vs} alt="skillsicon" className="card-icon" />
+           </div>
+            <div className="card">
+             <img src={windows} alt="skillsicon" className="card-icon" />
+           </div>
+            <div className="card">
+             <img src={github} alt="skillsicon" className="card-icon" />
+           </div>
+            <div className="card">
+             <img src={git} alt="skillsicon" className="card-icon" />
            </div>
               </div>
             </div>

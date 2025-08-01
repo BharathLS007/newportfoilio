@@ -295,8 +295,9 @@ footer{
 .tech-icon{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 7% 0 3%;
+  justify-content: center;
+  margin: 0 7% 2% 3%;
+  gap: 3%;
 }
 .card {
   width: 180px;
@@ -309,6 +310,7 @@ footer{
   align-items: center;
   box-shadow: 0 0 10px rgba(128, 0, 128, 0.5);
   transition: transform 0.3s ease;
+  margin-bottom: 2%;
 }
 
 .card:hover {
