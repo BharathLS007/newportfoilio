@@ -19,7 +19,8 @@ function Projects() {
     <h2>Chatbot:</h2>
     <p>
       medical diagnostics chatbot based on symptoms  
-      built with Flask, json,html,css and javascript. Features include predecting the disease based on the symptoms. Given by the user
+      built with Flask, json,html,css and javascript. Features include predicting the disease based on the symptoms. Given by the user.
+
     </p>
     <div className="project-buttons">
       <a href="https://github.com/BharathLS007/bot">GitHub</a>
@@ -41,10 +42,10 @@ function Projects() {
   </div>
     <div className="project"><br /><br /><br /><br /><br />
     <img src={portfoilioold} alt="projectimg" /><br /><br /><br /><br /><br />
-    <h2>Portfilio:</h2>
+    <h2>Portfolio:</h2>
     <p>
-      Portfilio Website 
-      built with html,css and javascript. 
+      Portfolio Website 
+      built with html,css and javascript. This was my first Portfolio website. I created during my first internship.
     </p><br /><br /><br /><br /><br />
     <div className="project-buttons">
       <a href="https://github.com/BharathLS007/Portfolio">GitHub</a>
