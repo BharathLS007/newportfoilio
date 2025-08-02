@@ -29,9 +29,7 @@ Explore my work in the Projects section of the site. Each project reflects my gr
 Feel free to reach out via the Contact section. I'm open to collaborations, freelance opportunities, or just a friendly chat!
 
 🛠️ Built With
-HTML, CSS, JavaScript
-
-React.js
+HTML, CSS, JavaScript,React.js
 
 GitHub Pages for deployment
 
