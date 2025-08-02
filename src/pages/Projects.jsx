@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import bot from '../assets/bot.png'
 import movie from '../assets/movie.png'
+import game from '../assets/game.jpg'
 import portfoilioold from '../assets/portfoilioold.png'
 function Projects() {
   return (
@@ -20,7 +21,6 @@ function Projects() {
     <p>
       medical diagnostics chatbot based on symptoms  
       built with Flask, json,html,css and javascript. Features include predicting the disease based on the symptoms. Given by the user.
-
     </p>
     <div className="project-buttons">
       <a href="https://github.com/BharathLS007/bot">GitHub</a>
@@ -33,6 +33,7 @@ function Projects() {
     <p>
       Movie Website   
       built with Reactjs,html,css and javascript. 
+      The main goal of this project is to showcase how I learned React.js from scratch and demonstrate my dedication to completing the tasks I choose to work on.
     </p><br /><br /><br /><br />
     <div className="project-buttons">
       <a href="https://github.com/BharathLS007/movies">GitHub</a>
@@ -50,6 +51,18 @@ function Projects() {
     <div className="project-buttons">
       <a href="https://github.com/BharathLS007/Portfolio">GitHub</a>
       <a href="https://bharathls007.github.io/Portfolio/">Demo</a>
+    </div>
+  </div>
+      <div className="project"><br /><br /><br /><br /><br />
+    <img src={game} alt="projectimg" /><br /><br /><br /><br /><br />
+    <h2>Survival Game </h2>
+    <p>
+This game was developed using Unity and standard assets from the Unity Asset Store. It is a sample project created during a hackathon conducted at our college. 
+As a base game, it has potential for future updates, including the addition of various combat actions
+    </p><br /><br /><br /><br /><br />
+    <div className="project-buttons">
+      <a href="https://github.com/BharathLS007/ellen-game">GitHub</a>
+      
     </div>
   </div>
 </div>
