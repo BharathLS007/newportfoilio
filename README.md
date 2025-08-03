@@ -1,12 +1,37 @@
-# React + Vite
+💼 Bharath L S — Portfolio
+Welcome to my personal portfolio! I'm Bharath L S, a passionate Frontend Developer with a love for building modern web applications and exploring game development. This site showcases my skills, projects, and ways to connect with me.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Site
+👉 Visit Portfolio
 
-Currently, two official plugins are available:
+👨‍💻 About Me
+I'm fluent in:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React.js A powerful JavaScript library for building user interfaces.
 
-## Expanding the ESLint configuration
+JavaScript The language of the web — dynamic, versatile, and essential.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+MySQL A reliable relational database system for managing data.
+
+Python A versatile language used for web, data science, and automation.
+
+🧠 Interests
+Building new web technologies and products
+
+Game development and interactive design
+
+Creating with modern frameworks like React.js
+
+📂 Projects
+Explore my work in the Projects section of the site. Each project reflects my growth, creativity, and technical skills.
+
+📬 Contact
+Feel free to reach out via the Contact section. I'm open to collaborations, freelance opportunities, or just a friendly chat!
+
+🛠️ Built With
+HTML, CSS, JavaScript,React.js
+
+GitHub Pages for deployment
+
+🎨 Design & Development
+Designed and developed by Bharath L S
