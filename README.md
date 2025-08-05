@@ -35,3 +35,13 @@ GitHub Pages for deployment
 
 🎨 Design & Development
 Designed and developed by Bharath L S
+
+
+Desktop UI  
+<img width="1396" height="682" alt="Screenshot 2025-08-05 105356" src="https://github.com/user-attachments/assets/7415a2f7-6d95-4e74-87cc-e41e8606237f" />
+
+Mobile UI
+
+<img width="319" height="518" alt="Screenshot 2025-08-05 105432" src="https://github.com/user-attachments/assets/27543a94-f200-4469-9574-f0d64d0f7ff1" />
+
+
