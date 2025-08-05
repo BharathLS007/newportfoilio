@@ -303,7 +303,7 @@ footer{
 .card {
   width: 180px;
   height: 120px;
-  background-color: transparent;
+  background-color: var(--primary);
   border: 2px solid #800080;
   border-radius: 10px;
   display: flex;
