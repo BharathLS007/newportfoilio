@@ -86,6 +86,32 @@ const handleDownload = () => {
 </button>
 
 </div>
+           <div className="container3">
+            <h1 className='find'>FIND ME ON</h1>
+            <p className='free'>
+              Feel free to <span className='highlight'>connect</span>with me
+            </p>
+         <div className="links">
+  <ul>
+    <li>
+      <a href="https://github.com/BharathLS007" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/bharathls" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/__bharath.l.s_" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </li>
+  </ul>
+         </div>
+
+           </div>
           <footer>
             <p>Designed and Developed by Bharath L S</p>
            </footer>

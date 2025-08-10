@@ -11,7 +11,7 @@ function App() {
   return (
     <>
         <VantaNet/>
-        <BrowserRouter basename="/newportfoilio/">
+        <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/About' element={<About />} />

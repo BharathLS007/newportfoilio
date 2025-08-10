@@ -5,6 +5,7 @@
   --transperent: rgba(255, 255, 255, 0.05);
   --transperent2:rgba(255, 255, 255, 0.2);
   --special:aqua;
+  --test:green;
 }
 
 *{
@@ -302,7 +303,7 @@ footer{
 .card {
   width: 180px;
   height: 120px;
-  background-color: transparent;
+  background-color: var(--primary);
   border: 2px solid #800080;
   border-radius: 10px;
   display: flex;

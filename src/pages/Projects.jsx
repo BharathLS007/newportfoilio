@@ -15,7 +15,7 @@ function Projects() {
           </div>
         </div>
 <div className="project-container">
-  <div className="project">
+  <div className="project"><br /><br />
     <img src={bot} alt="projectimg" />
     <h2>Chatbot:</h2>
     <p>
@@ -27,7 +27,7 @@ function Projects() {
       <a href="#">Demo</a>
     </div>
   </div>
-    <div className="project"><br /><br /><br /><br /><br />
+    <div className="project"><br /><br /><br /><br />
     <img src={movie} alt="projectimg" /><br /><br /><br /><br /><br />
     <h2>Movie website:</h2>
     <p>
